@@ -1,10 +1,15 @@
-import "./styles.css";
+//eslint,
+/**
+letは上書き可能
+constは上書き不可能
+constはオプジェクトの場合、プロパティの上書きが可能
+constは配列の上書きも可能
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
+reactの変数宣言はほとんど、constを使用する
+
+let,const共に再宣言は不可能
+
+変数で文字列を指定する場合、テンプレート文字列を使用する
+
+
+ */
